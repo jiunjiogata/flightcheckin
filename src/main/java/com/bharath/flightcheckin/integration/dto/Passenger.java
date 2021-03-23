@@ -1,21 +1,13 @@
-package com.rjo.flightcheckin.integration.dto;
-
+package com.bharath.flightcheckin.integration.dto;
 
 public class Passenger {
-	private long id;
+
+	private Long id;
 	private String firstName;
 	private String lastName;
 	private String middleName;
 	private String email;
 	private String phone;
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
 
 	public String getFirstName() {
 		return firstName;
@@ -55,6 +47,14 @@ public class Passenger {
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 }

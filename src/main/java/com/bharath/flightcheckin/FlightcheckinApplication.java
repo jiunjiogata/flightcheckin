@@ -1,4 +1,4 @@
-package com.rjo.reservation;
+package com.bharath.flightcheckin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class FlightcheckinApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(FlightcheckinApplication.class, args);
 	}
-
 }
